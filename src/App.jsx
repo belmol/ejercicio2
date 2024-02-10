@@ -1,11 +1,11 @@
-import React from "react"
+import React from "react";
 
-function App(){
+function App(props) {
   return (
     <div>
-      <h1>Hello Wold!</h1>
+      <h1>Hello {props.name}!</h1>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
